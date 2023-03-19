@@ -1,0 +1,14 @@
+{% extends 'product/base.html' %}
+{% block container %}
+
+<form action=" {{ url_for('product.create')}} " method="POST">
+  {%include 'product/from.html' %}
+
+  <input type="submit" value="Add" /> 
+  
+</form>
+{% endblock %}
+
+
+
+

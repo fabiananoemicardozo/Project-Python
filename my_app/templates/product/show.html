@@ -1,0 +1,6 @@
+{% extends 'product/base.html' %}
+{% block container %}
+    <h3>{{ product['name'] }}</h3>
+    <p>{{ product['category'] }}</p>
+    <p>$ {{ product['price'] }}</p>
+{% endblock %}
